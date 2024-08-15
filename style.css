@@ -1,0 +1,50 @@
+body{ /*For the body font*/
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+table td{ /*this is for the style of the table data*/   
+    text-align: center;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(14, 12, 12);
+    border-bottom: 3px solid rgb(7, 7, 7);
+    padding: 12px;
+    background-color: lightblue;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table td:hover { /*this is for the hover in each cell*/
+    background-color: gray;
+}
+
+table td[colspan="7"]{ /*this is for the table header color and style*/
+    background-color: #4b96a0; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table tr:nth-child(2) td, 
+table tr:nth-child(11) td, 
+table tr:nth-child(21) td,
+table tr:nth-child(30) td,
+table tr:nth-child(39) td,      /*for the 2nd header color*/
+table tr:nth-child(47) td,
+table tr:nth-child(55) td,
+table tr:nth-child(62) td{
+    background-color: rgb(231, 142, 142)
+}
+
+table tr:nth-child(40) td,
+table tr:nth-child(41) td,
+table tr:nth-child(42) td,
+table tr:nth-child(43) td,     /*For the currently taken course*/
+table tr:nth-child(44) td,
+table tr:nth-child(45) td{
+    background-color: rgb(38, 129, 233);
+}
